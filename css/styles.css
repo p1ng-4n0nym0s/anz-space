@@ -1,71 +1,69 @@
 .top-container {
   background-color: #dae6f2;
   color: #00d1cd;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 0px;
-  padding-top: 100px;
+  padding-top: 22%;
   width: 100%;
-
   position: relative;
+  padding-bottom: 0;
 }
 body{
   margin: 0;
-  font-family: 'Shadows Into Light', cursive;
-
   text-align: center;
   }
 h1{
   padding-top: 50px;
   font-size: 100px;
- margin: 0;
+  margin: 0;
   font-family: 'Sacramento', cursive;
 }
 div.des{
   font-weight: 500;
   color: #454d66;
   margin: 0;
-  font-size: 20px;
+  font-size: 1.5rem;
   font-family: 'Source Code Pro', monospace;
   position: relative;
- left: 80px;
+  left: 4.5%;
  bottom: 40px;
 
 }
 p{
   font-family: 'Source Code Pro', monospace;
-  padding: 80px;
-
+  
+  line-height: 3;
+}
+.s1{
+padding: 0 100px 80px 300px;
+}
+.s2{
+padding: 20px 300px 80px 100px;
 }
 .profile{
-  padding: 150px;
+  padding-top: 200px;
+  padding-left: 150px;
+  padding-right: 150px;
 background-color: white;
 }
-.bottom-container,.contact-me{
+.footer{
 
-  background-color: #93b5b3
+  background-color: #589cdd
 }
 .cloud{
-  padding: 50px;
   width: 200px;
 }
-.bottomcloud{
-  position: absolute;
-  top: 450px;
-  left: 180px;
-}
 .topcloud{
-  position: absolute;
-  top: 50px;
-  right: 180px;
+  position: relative;
+  left: 20%;
+}
+.bottomcloud{
+  position: relative;
+  left: 20%;
 }
 .mountain{
-/*margin-top: 200px;*/
-/*border-radius: 100%;*/
 width: 100%;
-}
+}---------
 .text{
-  padding: 150px;
+ 
   position: relative;
 }
 #dp{
@@ -74,12 +72,25 @@ width: 100%;
   width: 180px;
 }
 #sk{
+  float: left;
+  width: 100px;
+  padding: 80px;
+  padding-left: 80px;
+  border-left-width: 0px;
+  margin-left: 5%;
+  background-color: white;
+  border-radius: 10%;
 
-  width: 400px;
 }
 #sk2{
+  padding: 80px;
+  float: right;
+  background-color: white;
+  border-radius: 10%;
   border-radius: 100%;
-  width: 400px;
+  width: 100px;
+position: relative;
+ bottom: 10px;
 }
 .ftlogo{
   width: 30px;
@@ -94,11 +105,26 @@ width: 100%;
   font-family: 'Source Code Pro', monospace;
 }
 .skills{
-  padding-top: 100px;
+  padding-top: 90px;
   padding-bottom: 100px;
   background-color: #ecf4f3;
   width: 100%;
 }
 h2{
   font-weight: bold;
+  margin: 0;
+}
+h3{
+  margin: 0 auto;
+  padding: 0;
+}
+.skill-row{
+  padding: 20px;
+}
+.footer-link{
+text-decoration: none;
+}
+
+.footer{
+padding-top: 20px;
 }
